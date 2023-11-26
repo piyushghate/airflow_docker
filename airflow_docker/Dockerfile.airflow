@@ -1,0 +1,4 @@
+FROM apache/airflow:latest
+ADD requirements_airflow.txt .
+RUN pip install -r requirements_airflow.txt
+RUN pip install 'apache-airflow[amazon]'

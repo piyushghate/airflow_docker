@@ -1,0 +1,4 @@
+FROM apache/spark
+
+COPY spark_scripts /opt/spark/work-dir
+WORKDIR /opt/spark/work-dir

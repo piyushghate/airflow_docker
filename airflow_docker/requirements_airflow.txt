@@ -1,0 +1,5 @@
+findspark
+s3fs
+apache-airflow-providers-apache-spark
+apache-airflow-providers-docker
+apache-airflow-providers-amazon
